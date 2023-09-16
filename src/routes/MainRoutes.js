@@ -1,6 +1,7 @@
 /*
  * @Description: temp
  */
+import Footer from "../components/Footer/Footer";
 import { Outlet } from "react-router-dom";
 import Home from "../pages/Home/Home";
 const Layout = () => {
@@ -8,7 +9,7 @@ const Layout = () => {
       <div className="app">
         {/* <Navbar /> */}
         <Outlet />
-        {/* <Footer /> */}
+        <Footer />
       </div>
     );
 };
